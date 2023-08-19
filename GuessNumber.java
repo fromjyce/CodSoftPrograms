@@ -8,7 +8,7 @@ public class GuessNumber {
         int limit = scan.nextInt();
         Random random = new Random();
         int orgno = random.nextInt(limit);
-        System.out.println(orgno);
+        //System.out.println(orgno);
         int count = 0;
         while (count!=5){
             System.out.print("Enter the number: ");
